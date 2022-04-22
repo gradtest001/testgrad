@@ -46,8 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text(widget.title),
       ),
-      body: const Center(
-        child: Text('test22202'),
+      body:  Center(
+        child: Column(
+          children: [
+            Text('test22202'),
+          ],
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
