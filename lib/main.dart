@@ -48,8 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body:  Center(
         child: Column(
-          children: [
-
+          children: const [
+            Text('test22202'),
+            Text('test11010'),
           ],
         ),
       ),
